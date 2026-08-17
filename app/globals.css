@@ -75,3 +75,10 @@ html,body{max-width:100%;overflow-x:clip}.hero-grid>*{min-width:0}@media(max-wid
   .facts-grid p:nth-child(odd){border-right-width:3px}
   .facts-grid p:nth-child(-n+2){border-bottom-width:3px}
 }
+
+/* Сплошная чёрная сетка вокруг каждой карточки на мобильном экране. */
+@media(max-width:700px){
+  .facts{border:3px solid var(--ink)}
+  .facts-grid{gap:3px;background:var(--ink)}
+  .facts-grid p{border:0!important;background:var(--acid)}
+}
