@@ -61,3 +61,11 @@ html,body{max-width:100%;overflow-x:clip}.hero-grid>*{min-width:0}@media(max-wid
 @media(max-width:700px){
   .facts-grid p{border-bottom-color:var(--ink)}
 }
+
+/* На телефоне нижняя панель перекрывала содержание секций. */
+@media(max-width:700px){
+  .mobile-contact{display:none}
+  .facts-grid p{border:0}
+  .facts-grid p:nth-child(odd){border-right:1px solid var(--ink)}
+  .facts-grid p:nth-child(-n+2){border-bottom:1px solid var(--ink)}
+}
