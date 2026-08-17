@@ -54,7 +54,7 @@ html,body{max-width:100%;overflow-x:clip}.hero-grid>*{min-width:0}@media(max-wid
 }
 
 /* Чёткие границы блока со сроками и условиями. */
-.facts{border-block:1px solid var(--ink)}
+.facts{border:1px solid var(--ink)}
 .facts-grid p{border-right-color:var(--ink)}
 .facts-grid p:last-child{border-right:0}
 
